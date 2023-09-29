@@ -15,15 +15,15 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "")
+CHANNEL = os.environ.get('CHANNEL', "TomenBots")
 STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
+ADMIN = int(os.environ.get("ADMIN", "6616684260"))
 bot_username = os.environ.get("BOT_USERNAME","TomenxRenamerBot")
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
-token = os.environ.get('TOKEN', '')
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001672208834"))
+token = os.environ.get('TOKEN', '6055223043:AAE4yj8Tptg2vCCQfsw5HAB3cA0tc_ZTsr4')
 botid = token.split(':')[0]
 FLOOD = 500
-LAZY_PIC = os.environ.get("LAZY_PIC", "")
+LAZY_PIC = os.environ.get("LAZY_PIC", "https://telegra.ph/file/875cc4cf0a7da11ab9773.jpg")
 
 
 # Part of Day --------------------
